@@ -1,0 +1,32 @@
+# Local account configuration, backups, and copy history
+private/
+logs/
+*.log
+*.conf
+*.conf.*
+
+# OAuth downloads and other credential artifacts (this project needs no JSON)
+*.json
+*.json.*
+.env
+.env.*
+*credentials*
+*client_secret*
+*client-secret*
+*oauth*
+*token*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Distribution archives and editor/OS scratch files
+*.zip
+*.7z
+*.bak
+*.tmp
+*.swp
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
