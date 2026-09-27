@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "name": "gg Revenge Plugins",
+  "description": "Personal Revenge plugins.",
+  "plugins": {
+    "gg.freeemoji": {
+      "name": "FreeEmoji",
+      "description": "Use custom Discord emoji without Nitro by sending unavailable emoji as Discord CDN images.",
+      "author": "gg",
+      "channels": {
+        "latest": "0.1.0"
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://raw.githubusercontent.com/ArtificialGoodGame/Google-Drive-copier/revenge-freeemoji-host/revenge-freeemoji/pool/gg.freeemoji@0.1.0.zip",
+          "sha256": "60fdbb7f19d511f696c59cf96fc277da6cc75e6d55097f3ebb88cca2e0d835f9",
+          "size": 1781,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2",
+              "optional": false
+            },
+            "discord": {
+              "version": "*",
+              "optional": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
